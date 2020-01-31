@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         calculateTipButton = (Button) findViewById(R.id.calculateButtonID);
         showTipPercentageTextView = (TextView) findViewById(R.id.userPercentageAmountID);
         totalDueTextView = (TextView) findViewById(R.id.totalDueID);
-       
+
         calculateTipButton.setOnClickListener(this);
 
         tipPercentageSeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
